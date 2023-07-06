@@ -32,11 +32,20 @@ body {
   justify-content: center;
 }
 
+.column.left {
+  background-color: #720528;
+  color: white;
+}
+
 .column-header {
   font-size: 25px;
   position: relative;
-  background-color: white;
+  background-color: #625d54;
   top: 8px;
+  border: 2px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 #big_coffee {
   user-select: none;
@@ -58,6 +67,7 @@ body {
   overflow: auto;
   border: 2px black solid;
   border-radius: 5px;
+  background-color: #d6cbb8;
 }
 
 .producer {
@@ -67,6 +77,7 @@ body {
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
+  background-color: #e4ddd1;
 }
 .producer-column {
   display: flex;
